@@ -224,7 +224,7 @@ export class Md2Colorpicker implements OnDestroy, ControlValueAccessor {
 
   fontColor: string;
   backAreaColor: string;
-  isInputValidColor: boolean = false;
+  public isInputValidColor: boolean = false;
 
   _onChange = (value: any) => { };
   _onTouched = () => { };
